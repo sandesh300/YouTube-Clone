@@ -40,5 +40,6 @@ By following this layered architecture approach, we can keep the code clean and 
 # MongoDB Schema
 Now let’s have a look at the MongoDB schema, we maintain 2 Collections inside our Database:
 
-1. Video – We will store the meta data related to videos
-2. User – We will store the meta data related to users
+1. Video – We will store the meta data related to videos.
+2. User – We will store the meta data related to users.
+![WhatsApp Image 2023-07-04 at 5 51 10 PM](https://github.com/sandesh300/YouTube-Clone/assets/92014891/f99a8c66-8bf9-4641-a363-c48404063990)
