@@ -42,4 +42,15 @@ Now let’s have a look at the MongoDB schema, we maintain 2 Collections inside 
 
 1. Video – We will store the meta data related to videos.
 2. User – We will store the meta data related to users.
+3. 
 ![WhatsApp Image 2023-07-04 at 5 51 10 PM](https://github.com/sandesh300/YouTube-Clone/assets/92014891/f99a8c66-8bf9-4641-a363-c48404063990)
+
+
+![WhatsApp Image 2023-07-04 at 5 51 09 PM](https://github.com/sandesh300/YouTube-Clone/assets/92014891/10428e1d-e64a-4437-addf-710a9b194b28)
+
+
+![WhatsApp Image 2023-07-04 at 5 51 09 PM (1)](https://github.com/sandesh300/YouTube-Clone/assets/92014891/fad46295-0b85-402a-be2a-10916616f2fd)
+
+
+![WhatsApp Image 2023-07-04 at 5 51 08 PM](https://github.com/sandesh300/YouTube-Clone/assets/92014891/ea6bd9b2-7adc-41f3-8a83-c0fe1ecc23a0)
+
