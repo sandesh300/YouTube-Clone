@@ -27,7 +27,7 @@ AWS S3 – to store Videos and Thumbnails.
 We have implemented a Component Oriented Architecture in our Angular application, which means, we try to divide each meaningful element, into a different component, in that way, we can re-use the components across different places.
 
 # Backend Architecture =
-If you zoom in to the Spring Boot REST API, we have followed a standard 3-Layer architecture also in our backend side.
+ Spring Boot REST API, we have followed a standard 3-Layer architecture also in our backend side.
 
 We have exposed the REST API and maintain it separately in a Presentation/Controller Layer, this layer is only deal with receiving REST calls from the clients, validating whether the requests are valid or not and then delegating the request to the Service Layer.
 
