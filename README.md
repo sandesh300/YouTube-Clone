@@ -4,6 +4,12 @@ This repository contains source code for the Spring Boot Angular Full Stack - Yo
 
 Spring Boot Angular Project, to build a complete application from the scratch using Spring Boot and Angular, building a Video Streaming Application like Youtube.
 
+# Technologies Used =
+Spring Boot, 
+MongoDB, 
+Angular,
+AWS S3 – to store Videos and Thumbnails.
+
 # Functional Requirements = 
 We implementing the following features in this web application:
 
@@ -16,12 +22,6 @@ We implementing the following features in this web application:
 7. User can comment on Videos.
 8. User can view the History of Videos he/she watched.
 9. User can view the List of Videos he/she Liked.
-
-# Technologies Used =
-Spring Boot, 
-MongoDB, 
-Angular,
-AWS S3 – to store Videos and Thumbnails.
 
 # Frontend Architecture =
 We have implemented a Component Oriented Architecture in our Angular application, which means, we try to divide each meaningful element, into a different component, in that way, we can re-use the components across different places.
