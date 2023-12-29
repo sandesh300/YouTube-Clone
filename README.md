@@ -1,4 +1,4 @@
-# youtube-clone-project
+# Youtube-Clone
 
 This repository contains source code for the Spring Boot Angular Full Stack - Youtube Clone Project
 
@@ -6,6 +6,7 @@ Spring Boot Angular Project, to build a complete application from the scratch us
 
 # Technologies Used =
 Spring Boot, 
+Java, 
 MongoDB, 
 Angular,
 AWS S3 – to store Videos and Thumbnails.
@@ -27,7 +28,14 @@ We implementing the following features in this web application:
 We have implemented a Component Oriented Architecture in our Angular application, which means, we try to divide each meaningful element, into a different component, in that way, we can re-use the components across different places.
 
 # Backend Architecture =
- Spring Boot REST API, we have followed a standard 3-Layer architecture also in our backend side.
+ Spring Boot REST API, we have followed a standard 3-Layer architecture: 
+ 
+ 1 - Controller / Presentation Layer : handles client requests.
+ 
+ 2 - Service Layer : contain business logic.
+ 
+ 3 - Persistence Layer : deal with data storage.
+ 
 
 We have exposed the REST API and maintain it separately in a Presentation/Controller Layer, this layer is only deal with receiving REST calls from the clients, validating whether the requests are valid or not and then delegating the request to the Service Layer.
 
@@ -38,11 +46,13 @@ The Persistence Layer is responsible to make sure that the objects are stored pr
 By following this layered architecture approach, we can keep the code clean and maintainable.
 
 # MongoDB Schema
-Now let’s have a look at the MongoDB schema, we maintain 2 Collections inside our Database:
+ MongoDB schema, we maintain 3 Collections inside in the Database:
 
-1. Video – We will store the meta data related to videos.
-2. User – We will store the meta data related to users.
-3. 
+1. Video – stores the meta data related to videos.
+2. User – stores the meta data related to users.
+3. Comments - stores the meta data related to comments.  
+
+
 ![WhatsApp Image 2023-07-04 at 5 51 10 PM](https://github.com/sandesh300/YouTube-Clone/assets/92014891/f99a8c66-8bf9-4641-a363-c48404063990)
 
 
