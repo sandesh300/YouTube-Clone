@@ -21,8 +21,8 @@ We implementing the following features in this web application:
 5. User can Subscribe to another User, to receive updates about future videos.
 6. User can Login/Logout using Single Sign On using auth0 .
 7. User can comment on Videos.
-8. User can view the History of Videos he/she watched.
-9. User can view the List of Videos he/she Liked.
+8. User can view the History of Videos watched.
+9. User can view the List of Videos Liked.
 
 # Frontend Architecture =
 We have implemented a Component Oriented Architecture in our Angular application, which means, we try to divide each meaningful element, into a different component, in that way, we can re-use the components across different places.
@@ -48,9 +48,9 @@ By following this layered architecture approach, we can keep the code clean and 
 # MongoDB Schema
  MongoDB schema, we maintain 3 Collections inside in the Database:
 
-1. Video – stores the meta data related to videos.
-2. User – stores the meta data related to users.
-3. Comments - stores the meta data related to comments.  
+1. Video – stores the metadata related to videos.
+2. User – stores the metadata related to users.
+3. Comments - stores themeta data related to comments.  
 
 
 ![WhatsApp Image 2023-07-04 at 5 51 10 PM](https://github.com/sandesh300/YouTube-Clone/assets/92014891/f99a8c66-8bf9-4641-a363-c48404063990)
